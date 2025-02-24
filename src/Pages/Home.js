@@ -43,7 +43,10 @@ export default function Home() {
         </>
         :
         ( animals.length == 0 ? 
-            <Text style={css.text}>Sem animais para exibir</Text>
+            <>
+              <Text style={css.text}>Sem animais para exibir</Text>
+              <Text style={css.text}>Teste Desculpa julio</Text>
+            </>
           :
             <ActivityIndicator size="large" color="#3097ff" />
         )
