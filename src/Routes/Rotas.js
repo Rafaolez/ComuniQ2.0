@@ -28,7 +28,7 @@ export default function Rotas() {
                     tabBarStyle: {
                         backgroundColor: '#191919',
                     },
-                    tabBarActiveTintColor: "white"
+                    tabBarActiveTintColor: "blackS"
                 }}
             >
                 <Tab.Screen
